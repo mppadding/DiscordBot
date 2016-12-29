@@ -54,10 +54,6 @@ class Quote extends Command {
            description: 'Handles quotes.\n`quote add <name> <quote>`: Adds quote.\n`quote <name>` Shows random quote from <name>.\n'
         }
     }
-    
-    get permissions() {
-        return ['@everyone']
-    }
 }
 
 module.exports = Quote

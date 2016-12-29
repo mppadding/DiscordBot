@@ -22,10 +22,6 @@ class Congrats extends Command {
     get permissions() {
         return ['@everyone']
     }
-    
-    get channels() {
-        return []
-    }
 }
 
 module.exports = Congrats

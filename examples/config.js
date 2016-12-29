@@ -16,7 +16,7 @@ var config =
     log_file: "log.txt",
     
     // Language file to use
-    language: require('../Lang/English.lang.js'),
+    language: require('./language.js'),
     
     // Maximum entries in the help command
     help_max_entries: 10,

@@ -22,10 +22,6 @@ class Ping extends Command {
     get permissions() {
         return ['@everyone']
     }
-    
-    get channels() {
-        return 'CHANNELS:3'
-    }
 }
 
 module.exports = Ping

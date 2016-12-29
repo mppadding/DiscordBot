@@ -17,10 +17,6 @@ class Command {
     get permissions() {
         
     }
-    
-    get channels() {
-        
-    }
 }
 
 module.exports = Command

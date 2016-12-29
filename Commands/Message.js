@@ -34,10 +34,6 @@ class Message extends Command {
     get permissions() {
         return ['Admin']
     }
-    
-    get channels() {
-        return 'CHANNELS:3'
-    }
 }
 
 module.exports = Message
