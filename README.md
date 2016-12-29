@@ -4,6 +4,20 @@ DiscordBot is a framework for easily creating a discord bot. Internally it uses
 [Discord.js](https://github.com/hydrabolt/discord.js) by [Hydrabolt](https://github.com/hydrabolt) and [Node.js](https://nodejs.org/en/).
 DiscordBot is easy to use and easy to extend.
 
+## Table of Contents
+* [Install](#install)
+* [Documentation](#documentation)
+    * [Main File](#main-file)
+    * [Event Handlers](#event-handlers)
+    * [Commands](#commands)
+    * [Permissions](#permissions)
+    * [Language](#language)
+* [Examples](#examples)
+    * [Example Main](#example-main)
+    * [Example Config](#example-config)
+    * [Example Language](#example-language)
+    * [Example Command](#example-command)
+
 ## Install
 Installing DiscordBot is easy. Clone the repository using ```git clone https://github.com/pukkertje/DiscordBot.git```.
 When cloning is finished, run ```install_dependencies.sh```, this will install all
@@ -79,7 +93,7 @@ for some commands. These parameters are in the form of ```{parameter}``` and sho
 In ```./examples``` is a example method of creating the bot. ```basic.js``` contains
 the code to make the bot and ```config.js``` is the config file for said bot.
 
-### Example main file
+### Example Main
 ```javascript
 /* To be run in './' */
 var Events = require('./Constants/Events.js')
@@ -112,7 +126,7 @@ bot.addEventHandler(Events.Message, function(msg) {
  * initialized */
 bot.initBaseEventHandlers()
 ```
-### Example config file
+### Example Config
 ```javascript
 var config =
 {
@@ -146,7 +160,7 @@ var config =
 
 module.exports = config;
 ```
-### Example language file
+### Example Language
 ```javascript
 var lang_en =
 {
@@ -178,7 +192,7 @@ var lang_en =
 
 module.exports = lang_en;
 ```
-### Example command
+### Example Command
 ```javascript
 "use strict";
 
